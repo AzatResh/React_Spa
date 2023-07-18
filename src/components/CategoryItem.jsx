@@ -11,7 +11,7 @@ function CategoryItem(props){
                     <h5 className="card-title">{strCategory}</h5>
                     <p className="card-text">{strCategoryDescription.slice(0, 60)}...</p>
                     <hr />
-                    <Link to={`/category${idCategory}`} className="btn btn-primary shadow-sm rounded bg-success">About</Link>
+                    <Link to={`/category/${strCategory}`} className="btn btn-primary shadow-sm rounded bg-success">About</Link>
                 </div>
             </div>
         </div>

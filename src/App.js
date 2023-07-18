@@ -6,8 +6,8 @@ import {Header} from './layout/Header';
 import {Home} from './pages/Home';
 import {Contact} from './pages/Contact';
 import {About} from './pages/About';
-import {Movie} from './pages/Movie';
 import {NotFound} from './pages/NotFound';
+import {Category} from './pages/Category';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
               <Route exact path='/' Component={Home}/>
               <Route path='/about' Component={About}/>
               <Route path='/contacts' Component={Contact}/>
-              <Route path='/movies/:id' Component={Movie}/>
+              <Route path='/category/:name' Component={Category}/>
               <Route path='*' Component={NotFound}/>
             </Routes>
 
