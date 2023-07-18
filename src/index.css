@@ -70,3 +70,7 @@ code {
     gap: 1rem;
     padding: 0px 10px 20px 10px;
 }
+
+iframe{
+  height: 500px;
+}
